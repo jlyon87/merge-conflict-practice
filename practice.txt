@@ -1,5 +1,4 @@
-a1
-b1
-c1
-d1
-story1
+a
+b
+c
+d
