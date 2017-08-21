@@ -1,4 +1,7 @@
 git checkout sourceBranch
 git merge -s ours targetBranch
+git push origin sourceBranch
+
 git checkout targetBranch
 git merge sourceBranch
+git push origin targetBranch
