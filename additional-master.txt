@@ -1,1 +1,5 @@
 now rebase this onto other branches from master.
+git checkout sourceBranch
+git merge -s ours targetBranch
+git checkout targetBranch
+git merge sourceBranch
