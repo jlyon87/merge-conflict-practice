@@ -1,0 +1,4 @@
+git checkout sourceBranch
+git merge -s ours targetBranch
+git checkout targetBranch
+git merge sourceBranch
